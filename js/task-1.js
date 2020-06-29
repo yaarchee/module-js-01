@@ -1,3 +1,4 @@
+"use strict";
 const taskGo = document.querySelector(".task1 .task1-go");
 const resultText = document.querySelector(".task1 .result");
 const setPrice = document.querySelector(".task1 .set-price");

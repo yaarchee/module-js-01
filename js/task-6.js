@@ -1,3 +1,6 @@
+"use strict";
+
+
 const  start = document.querySelector(".start");
 const  totals = document.querySelector(".total span");
 let promptData;

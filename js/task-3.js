@@ -1,3 +1,5 @@
+"use strict";
+
 let logIn = document.querySelector(".login");
 
 const ADMIN_PASSWORD = 'js';
