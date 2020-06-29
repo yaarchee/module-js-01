@@ -1,3 +1,6 @@
+"use strict";
+
+
 const check = document.querySelector(".check");
 let cost;
 let nameCountry;

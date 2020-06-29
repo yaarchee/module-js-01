@@ -1,3 +1,5 @@
+"use strict";
+
 const credits = document.querySelector(".task4 .credits span");
 const doridCost = document.querySelector(".droid-cost span");
 const ourDroids= document.querySelector(".our-droid span");

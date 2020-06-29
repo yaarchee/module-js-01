@@ -1,3 +1,4 @@
+"use strict";
 const total =  document.querySelector(".task2 .total");
 const order = document.querySelector(".task2 .order span");
 const setOrder = document.querySelector(".task2 .set-order");
