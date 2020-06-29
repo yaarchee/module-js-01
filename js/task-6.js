@@ -7,6 +7,9 @@ let total = 0;
 
 
 start.addEventListener("click", function () {
+  if (promptData==null){
+    total = 0;
+  }
   do{
     promptData = prompt("Введите число?");
 
