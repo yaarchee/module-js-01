@@ -21,12 +21,12 @@ taskGo.addEventListener('click',function () {
 setPrice.addEventListener("click",  ()=>setNewPrice());
 
  function setNewPrice(){
-  promptData = +prompt("Установите новую цену");
+  promptData = prompt("Установите новую цену");
   console.log(promptData);
   if(promptData===null){
-    alert("введите целое число")
-  }else if (Number.isInteger(promptData)&& promptData>0){
-    resultText.innerHTML=result=`Выбран <<${nameProduct}>>, цена за штуку <span> ${promptData}</span>  за штуку`;
+    alert("отмена")
+  }else if (Number.isInteger(+promptData)&& +promptData>0){
+    resultText.innerHTML=result=`Выбран <<${nameProduct}>>, цена за штуку <span> ${+promptData}</span>  за штуку`;
     resultText.querySelector("span").style.background = "aqua";
 
     console.log(result);
